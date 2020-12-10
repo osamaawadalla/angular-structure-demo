@@ -1,4 +1,55 @@
-# OsamaDemo
+Highly Scalable Angular Structure Demo
+========================================
+
+This project is based on best practices from the community, other github
+Angular projects, developer experience from production Angular projects, and
+contributors to this repository. Included the most used angular packages and server side rendering.
+This project's goal is that it can be used for starting new angular project without the need of creating new project
+and add all packages from scratch and may help new developers to know the best angular folder structure.
+
+Tree Structure
+--------------
+
+This tree represents the directories this repository proposes be added to a
+default Angular application.
+
+```
+  .
+  └── src
+      ├── app
+      │   ├── core
+      │   ├── models
+      │   ├── layout
+      │   ├── modules
+      │   └── shared
+      └── style.scss
+```
+
+Packages Included
+-----------------
+
+- Bootstrap
+- Animate.css
+- Angular Material
+- Angular Universal
+- ngx-spinner
+- ngx-toastr
+- ngx-pagination
+- ngx-owl-carousel-o
+- ngx-infinite-scroll
+- ng2-animate-on-scroll
+- ngx-translate
+
+
+
+Services Included
+-----------------
+
+- Meta Service (used for adding meta for pages)
+
+
+
+# Osama Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 

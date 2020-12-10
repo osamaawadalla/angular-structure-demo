@@ -1,0 +1,31 @@
+<div class="home">
+  <!-- Start Slider -->
+  <div class="slider">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide>
+        <img src="assets/imgs/slide.jpg" width="100%" height="auto" alt="slide 1">
+      </ng-template>
+      <ng-template carouselSlide>
+        <img src="assets/imgs/slide.jpg" width="100%" height="auto" alt="slide 2">
+      </ng-template>
+      <ng-template carouselSlide>
+        <img src="assets/imgs/slide.jpg" width="100%" height="auto" alt="slide 3">
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+  <!-- End Slider -->
+
+  <!-- Start Section -->
+  <div class="section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 col-sm-6" *ngFor="let item of items">
+          <app-item-box [item]="item"></app-item-box>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+</div>
